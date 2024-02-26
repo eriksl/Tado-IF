@@ -3,9 +3,11 @@ Perl interface to Tado cloud, obtain some real-time data from your Tado heating 
 
 This requires to have a file /etc/tado that consists of:
 
+```
 [login]
 user = <username>
 password = <password>
+```
 
 Or supply the credentials to the new method (arguments 1 and 2).
 
